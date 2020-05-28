@@ -19,6 +19,7 @@ warnings=$(mktemp)
 
 # Load dependencies
 source $bp_dir/lib/build.sh
+source $bp_dir/lib/head.sh
 
 # Avoid GIT_DIR leak from previous build steps
 unset GIT_DIR
