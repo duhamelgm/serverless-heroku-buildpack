@@ -31,7 +31,7 @@ function indent() {
   esac
 }
 
-PACKAGES="libssl1.0-dev nodejs node-gyp npm"
+PACKAGES="libssl1.0-dev nodejs nodejs-dev node-gyp npm"
 
 APT_CACHE_DIR="$CACHE_DIR/apt/cache"
 APT_STATE_DIR="$CACHE_DIR/apt/state"
